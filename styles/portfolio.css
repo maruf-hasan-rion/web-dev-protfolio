@@ -89,11 +89,11 @@ nav ul li {
     max-width: 580px;
 }
 
-/* img {
+.image {
     height: 676px;
     width: 584px;
 
-} */
+}
 
 .banner-greetings {
     font-size: 45px;
@@ -152,6 +152,16 @@ main {
 .resume {
     display: flex;
     gap: 24px;
+}
+
+.font-size {
+    font-size: 36px;
+    margin: 50px 0;
+}
+
+.btn-margin {
+    margin-top: 30px;
+    margin-bottom: 100px;
 }
 
 footer {
