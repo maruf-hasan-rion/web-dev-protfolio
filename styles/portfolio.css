@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* shared class */
+* {
+    font-family: "Open Sans", sans-serif
+}
+
+.dark-1 {
+    color: #181818;
+}
+
+.dark-2 {
+    color: #474747;
+}
+
+.dark-3 {
+    color: #757575;
+}
+
+.section-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.secondary-bg {
+    background-color: #f0d6c4;
+}
+
+.text-align {
+    text-align: center;
+}
+
+/* header section */
+header {
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 20px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.text-primary {
+    color: orangered;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+.btn-primary {
+    background-color: #FD6E0A;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
+.banner-content {
+    max-width: 580px;
+}
+
+/* img {
+    height: 676px;
+    width: 584px;
+
+} */
+
+.banner-greetings {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title {
+    font-weight: bold;
+    font-size: 70px;
+}
+
+/* about section */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about {
+    margin: 130px;
+    padding: 100px 120px;
+    text-align: center;
+
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.item-description {
+    font-weight: bold;
+}
+
+.doing {
+
+    margin: 10px 130px;
+}
+
+.skills {
+    display: flex;
+    gap: 24px;
+
+}
+
+.skill-name {
+    margin: 30px 0;
+    padding: 20px;
+    box-shadow: 0px 5px 30px 0px black;
+    border-radius: 5px;
+}
+
+/* remume */
+
+.resume {
+    display: flex;
+    gap: 24px;
+}
+
+footer {
+    display: flex;
+    /* align-items: center;
+    justify-content: space-around; */
+    gap: 100px;
+    padding: 120px 200px;
+
+}
+
+.footer-column {
+    width: 50%;
+}
+
+/* form {
+    display: block;
+} */
+footer input[type="text"],
+textarea {
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+    color: black;
+    margin-bottom: 20px;
+    border: none;
+    padding: 10px 20px;
+}
